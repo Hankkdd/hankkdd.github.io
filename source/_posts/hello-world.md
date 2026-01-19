@@ -7,7 +7,7 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 
 ## Quick Start
 
-![img](assets/otmpcr1d.png)
+![img](source/assets/otmpcr1d.png)
 
 ### Create a new post
 

@@ -1,0 +1,18 @@
+# NexT overrides (recommended: avoid editing themes/NexT/_config.yml directly)
+
+math:
+  # Load math scripts on every page (simplest; avoids needing `mathjax: true` in each post)
+  per_page: false
+
+  # Use MathJax (works well with hexo-renderer-pandoc)
+  mathjax:
+    enable: true
+    mhchem: false
+
+  # Disable KaTeX to avoid double-loading / conflicts
+  katex:
+    enable: false
+
+# Use explicit https so MathJax also loads when opening generated HTML directly.
+vendors:
+  mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
